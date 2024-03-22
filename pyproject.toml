@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "learn-nlp"
+version = "0.1.0"
+description = "Learning NLP"
+authors = ["JordanMarcelino <jhordan.marcelino@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+nltk = "^3.8.1"
+spacy = "^3.7.4"
+pandas = "^2.2.1"
+numpy = "^1.26.4"
+jupyter = "^1.0.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
